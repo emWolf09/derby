@@ -11,18 +11,12 @@ mvn install:install-file -Dfile=./ojdbc7.jar -DgroupId=com.oracle -DartifactId=o
 ## Stack
  - Java 
  - Spring boot
- - Spring cloud (Zuul, Eureka, Config server)
+ - Spring cloud (Zuul, Eureka, Config server, Ribbon)
  - spring cache,JPA
  - Spring security
  - hibernate
  - maven build automation tool
 
 ## Implemented
- - caching level 1 (secondary level future scope)
- - Image are stored in Filesystem(local) and a url for that directory is stored in db. Upload and download is in Multipart object of java
- - Dynamic host and port configuration in cloud using spring cloud config server and github configuration properties file.
- - dozer mapper and lombok
- - pagination and Pageable
- - A  .O.P. -  Custom Exception handling, logging(futute scope)
- - load balancing using Ribbon (future scope)  
+ - L1 caching, AOP for custom exception handling and logging, Multipart object for image data, Pagination 
  
