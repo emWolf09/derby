@@ -13,7 +13,7 @@ import com.derby.entity.UserEntity;
  * @author MAHESH NAGARWAL
  *
  */
-@Repository(value = "UserDaoRepo")
+@Repository
 public interface UserDaoRepo extends JpaRepository<UserEntity, Integer>{
-	List<UserEntity> findByPlaceContaining(String place,Pageable pageable);
+	List<UserEntity> findByNameContaining(String name,Pageable pageable);
 }

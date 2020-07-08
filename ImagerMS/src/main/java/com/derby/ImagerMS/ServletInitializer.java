@@ -1,6 +1,6 @@
-package com.derby.profile;
+package com.derby.ImagerMS;
 
-import com.derby.ProfileMsApplication;
+import com.derby.ImagerMsApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
@@ -8,7 +8,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(ProfileMsApplication.class);
+		return application.sources(ImagerMsApplication.class);
 	}
 
 }

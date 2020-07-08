@@ -1,6 +1,6 @@
 package com.derby.model;
 
-import lombok.Data;
+import lombok.*;
 
 /**
  * @author MAHESH NAGARWAL
