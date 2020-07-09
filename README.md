@@ -5,7 +5,7 @@
 mvn install:install-file -Dfile=./ojdbc7.jar -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.1 -Dpackaging=jar
 
 
-**Note : Fron-end is in Angular - practise repo** [link](https://github.com/emWolf09/Derby-UI)
+**Note : Fron-end is in Angular** [link for repo ](https://github.com/emWolf09/Derby-UI)
 
 
 ## Stack
