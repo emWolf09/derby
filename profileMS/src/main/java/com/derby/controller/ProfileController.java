@@ -18,6 +18,7 @@ import com.derby.service.UserService;
 
 @RestController
 @RequestMapping(value = "/profile")
+@CrossOrigin(origins = "http://localhost:4200")
 public class ProfileController {
 	
 	@Autowired
